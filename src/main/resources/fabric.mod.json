@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "skilltree",
+  "version": "${version}",
+  "name": "Skill Tree",
+  "description": "Complete quests to earn skill points and spend them in a skill tree with four branches: Mining, Combat, Exploration and Nature.",
+  "authors": [
+    "Sarah Mertens"
+  ],
+  "license": "MIT",
+  "icon": "assets/skilltree/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sarah.skilltree.SkillTreeMod"
+    ],
+    "client": [
+      "com.sarah.skilltree.client.SkillTreeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

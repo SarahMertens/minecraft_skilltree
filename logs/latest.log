@@ -1,0 +1,4 @@
+[23:39:41] [Test worker/WARN]: Profile 00000000-0000-0000-0000-000000000001.json is damaged and was moved to 00000000-0000-0000-0000-000000000001.json.corrupt: File is empty
+[23:39:41] [Test worker/WARN]: Profile 00000000-0000-0000-0000-000000000001.json is damaged and was moved to 00000000-0000-0000-0000-000000000001.json.corrupt: Skill points must not be negative
+[23:39:41] [Test worker/WARN]: Profile 00000000-0000-0000-0000-000000000001.json is damaged and was moved to 00000000-0000-0000-0000-000000000001.json.corrupt: com.google.gson.stream.MalformedJsonException: Expected ':' at line 1 column 9 path $.this
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
